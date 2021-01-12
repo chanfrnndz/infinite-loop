@@ -1,0 +1,95 @@
+
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+body{
+  background: #1b1e24;
+  background-image:-webkit-linear-gradient(right,#1b1e24,#1b1e24 50%,#1b1e24);
+	background-image:-moz-linear-gradient(right,#1b1e24,#1b1e24 50%,#1b1e24);
+  background-image:-o-linear-gradient(right,#1b1e24,#1b1e24 50%,#1b1e24);
+	background-image:-ms-linear-gradient(right,#1b1e24,#1b1e24 50%,#1b1e24);
+	background-image:linear-gradient(to left,#1b1e24,#1b1e24 50%,#1b1e24);
+  font-family: helvetica, arial;
+  text-align: center;
+  margin:0;
+  padding:0;
+  padding-top: 150px;
+}
+
+/* Corazon */
+corazon{position: relative;}
+corazon:before{
+  content:"\f004"; /* Tipo de icono */
+  color: #e8367f;
+  font-size: 110px;
+  font-family: 'FontAwesome', sans-serif;
+  animation: corazon 2s linear 0s infinite alternate;
+  -moz-animation: corazon 2s linear 0s infinite alternate;
+  -webkit-animation: corazon 0.5s linear 0s infinite alternate;
+}
+
+h1{
+  font-family:'Pacifico', cursive;
+  font-size:5em;
+  text-align:center;
+  color:#2c90c6;
+  margin: 2% auto;
+  text-shadow:0 2px 2px #e8367f, 0 4px 2px #FC0C0C;
+  animation: bugone 3s infinite linear;
+}
+
+
+.flow boton:hover {
+  background: hsl(204, 8%, 76%);
+  transition: background .7s;
+}
+.flow boton:active {
+  background: hsl(204, 8%, 66%);
+}
+.flow .copyright {
+  border: none; 
+  background: hsl(6, 78%, 57%);
+}
+.flow .copyright:hover {
+  background: #7db9e8
+}
+.flow .copyright:active {
+  background: hsl(6, 64%, 36%)
+}
+
+
+@keyframes corazon {
+    0% { color: #e8367f; }
+    100% { color: #6B0000; }
+}
+@-moz-keyframes corazon {
+    0% { color: #FC0C0; }
+    100% { color: #6B0000; }
+}
+@-webkit-keyframes corazon {
+    0% { color: #FC0C0; }
+    100% { color: #FC0C0C; }
+}
+
+@keyframes bugone{  
+  50%{text-shadow: 0 2px 3px aqua,0 2px 3px aquamarine;}}
+@-webkit-keyframes bugone{ 
+  50%{text-shadow: 0 2px 3px aqua,0 2px 3px aquamarine;}}
+@-moz-keyframes bugone{ 
+  50%{text-shadow: 0 2px 3px aqua,0 2px 3px aquamarine;}}
+@-o-keyframes bugone{ 
+  50%{text-shadow: 0 2px 3px aqua,0 2px 3px aquamarine;}}
+@-ms-keyframes bugone{ 
+  50%{text-shadow: 0 2px 3px aqua,0 2px 3px aquamarine;
+  }
+}
+
+
+h1 {
+  font-family: 'Rouge Script', cursive;
+  font-size: 55px;
+  text-transform: capitalize;
+  color: #d65679;
+  margin-bottom: 0;
+}
